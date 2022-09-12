@@ -61,7 +61,7 @@
 
 /* Selection is very useful for me */
 *::selection {
-	background: var(--first-color-lighten);
+	background: var(--second-color);
 }
 
 html {
