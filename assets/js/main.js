@@ -115,17 +115,17 @@ themeButton.addEventListener('click', () => {
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const scr = ScrollReveal({
 	origin: 'top',
-	distance: '40px',
-	duration: '2000',
-	delay: '200',
+	distance: '60px',
+	duration: '2240',
+	delay: '400',
 	// reset: true,
 })
 
 scr.reveal(`.home__title, .popular__container, .subscribe__container, .footer__container`)
-scr.reveal(`.home__desctiption, .footer__info`, {delay: 300})
-scr.reveal(`.home__search`, {delay: 400})
-scr.reveal(`.home__value`, {delay: 500})
-scr.reveal(`.home__images`, {delay: 600, origin: 'bottom'} )
+scr.reveal(`.home__desctiption, .footer__info`, {delay: 500})
+scr.reveal(`.home__search`, {delay: 500})
+scr.reveal(`.home__value`, {delay: 700})
+scr.reveal(`.home__images`, {delay: 800, origin: 'bottom'} )
 scr.reveal(`.logos__img`, {interval: 100}) 
 scr.reveal(`.value__images, .contact__content`, {origin: 'left'}) 
 scr.reveal(`.value__content, .contact__images`, {origin: 'right'}) 
