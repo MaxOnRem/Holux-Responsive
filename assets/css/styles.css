@@ -61,6 +61,7 @@
 
 *::selection {
 	background: beige;
+	color: black;
 }
 
 html {

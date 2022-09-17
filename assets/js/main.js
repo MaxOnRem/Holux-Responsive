@@ -116,14 +116,14 @@ themeButton.addEventListener('click', () => {
 const scr = ScrollReveal({
 	origin: 'top',
 	distance: '60px',
-	duration: '2240',
+	duration: '2500',
 	delay: '400',
 	// reset: true,
 })
 
 scr.reveal(`.home__title, .popular__container, .subscribe__container, .footer__container`)
 scr.reveal(`.home__desctiption, .footer__info`, {delay: 500})
-scr.reveal(`.home__search`, {delay: 500})
+scr.reveal(`.home__search`, {delay: 600})
 scr.reveal(`.home__value`, {delay: 700})
 scr.reveal(`.home__images`, {delay: 800, origin: 'bottom'} )
 scr.reveal(`.logos__img`, {interval: 100}) 
